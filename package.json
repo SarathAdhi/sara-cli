@@ -8,6 +8,10 @@
   "bin": {
     "sara": "bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonyzach/usfm-validator.git"
+  },
   "scripts": {
     "start": "node bin/index.js"
   },
