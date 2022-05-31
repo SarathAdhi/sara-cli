@@ -15,7 +15,21 @@
   "scripts": {
     "start": "node bin/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "sara-cli",
+    "cli for reactjs",
+    "cli for nextjs",
+    "cli for reactjs and tailwind",
+    "cli for nextjs and tailwind",
+    "tailwind css",
+    "tailwindcss",
+    "all in one",
+    "tailwind and react",
+    "tailwind and next",
+    "nextjs",
+    "reactjs"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
