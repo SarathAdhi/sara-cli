@@ -1,5 +1,5 @@
 # SARA CLI
-## A perfect cli for all the developers who are looking for a command that installs both `react` and `tailwindcss` or `next` and `tailwindcss` and automatically configure the tailwind.config.js.
+## A perfect cli for all the developers who are looking for a common CLI that installs both `react` and `tailwindcss` or `next` and `tailwindcss` and automatically configure the tailwind.config.js.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
 
