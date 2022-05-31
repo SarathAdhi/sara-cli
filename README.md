@@ -41,14 +41,10 @@
 # To install Next and Tailwindcss
 - ### `sara init --js`
 
-<div align="center">
-  <img width="500" alt="image" src="https://user-images.githubusercontent.com/91727830/171109485-891d1c8a-3232-44f3-857d-ee50421f5226.png">
-</div>
-
 - ### Select `Next` and enter a project name or `./` to install in current directory. 
 
 <div align="center">
-  <img width="500" alt="image" src="https://user-images.githubusercontent.com/91727830/171109831-7c352bcf-6719-4817-bbc3-be8a69b241ad.png">
+  <img width="500" alt="image" src="https://user-images.githubusercontent.com/91727830/171112812-8dfa0c31-c386-4d0d-9861-026907ccffb8.png">
 </div>
 
 - ### Follow the same steps as above
