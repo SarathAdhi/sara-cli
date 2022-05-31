@@ -7,8 +7,13 @@
 ### `npm i -g @sarathadhi/cli`
 ### `sara --help`
 
+# JavaScript or TypeScript Template
+- ### `sara init --js` for JavaScript
+- ### `sara init --ts` for TypeScript
+
 # To install React and Tailwindcss
-- ### `sara init --js`
+- ### `sara init --js` for JavaScript
+- ### `sara init --ts` for TypeScript
 
 <div align="center">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/91727830/171109485-891d1c8a-3232-44f3-857d-ee50421f5226.png">
