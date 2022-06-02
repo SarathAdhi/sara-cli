@@ -2,18 +2,19 @@
   "name": "@sarathadhi/cli",
   "version": "1.0.4",
   "description": "",
-  "main": "src/index.js",
+  "main": "bin/index.js",
   "type": "module",
   "preferGlobal": true,
   "bin": {
-    "sara": "src/index.js"
+    "sara": "bin/index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/SarathAdhi/sara-cli.git"
   },
   "scripts": {
-    "start": "node bin/index.js"
+    "start": "node bin/index.js",
+    "test": "node test/index.js"
   },
   "keywords": [
     "cli",

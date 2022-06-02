@@ -1,0 +1,1 @@
+import a from"inquirer";import{error as b}from"./consoleLog.js";import c from"shelljs";export const promptOptions=async b=>{let d=await a.prompt(b).catch(a=>{a.isTtyError,console.log(a),c.exit(1)});return d}

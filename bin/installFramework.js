@@ -1,0 +1,7 @@
+import a from"ora";import b from"shelljs";import{error as c,success as d}from"./common/consoleLog.js";import{openVsCode as e}from"./common/openVSC.js";import{promptOptions as f}from"./common/promptOptions.js";import{installTailwind as g}from"./installTailwind.js";export const installFramework=async(h,k)=>{let{fileName:i}=await f([{type:"input",name:"fileName",message:"Enter the project name?"},]),l=a(`Running create-${h}-app...`).start();if("js"===k)b.exec(`npx create-${h}-app ${i}`,async a=>{if(0!==a)c(`
+Error While installing create-${h}-app. Try changing the file name.`),b.exit(1);else{l.succeed(),d(`
+Installed create-${h}-app successfully.
+`);let{dependencies:j}=await f([{name:"dependencies",message:"Would you like to install the following dependencies?",type:"list",choices:["Plain project","Tailwind CSS"]},]);"Tailwind CSS"===j?g(i,h):(d("Done.\n"),await new Promise(a=>setTimeout(a,500)),b.cd(i),await e())}});else{let j;j="next"===h?`npx create-next-app@latest ${i} --typescript`:`npx create-react-app ${i} --template typescript`,b.exec(j,async a=>{if(0!==a)c(`
+Error While installing create-${h}-app --template typescript. Try changing the file name.`),b.exit(1);else{l.succeed(),d(`
+Installed create-${h}-app --template typescript successfully.
+`);let{dependencies:j}=await f([{name:"dependencies",message:"Would you like to install the following dependencies?",type:"list",choices:["Plain project","Tailwind CSS"]},]);"Tailwind CSS"===j?g(i):(d("Done.\n"),await new Promise(a=>setTimeout(a,500)),b.cd(i),await e())}})}}
