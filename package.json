@@ -31,7 +31,7 @@
     "nextjs",
     "reactjs"
   ],
-  "author": "",
+  "author": "Sarath Adhithya",
   "license": "ISC",
   "dependencies": {
     "arg": "^5.0.1",
@@ -43,5 +43,8 @@
     "ora": "^6.1.0",
     "shelljs": "^0.8.5",
     "yargs": "^17.5.1"
+  },
+  "publishConfig": {
+    "@SarathAdhi:registry": "https://npm.pkg.github.com"
   }
 }
