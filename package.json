@@ -13,7 +13,8 @@
     "url": "https://github.com/SarathAdhi/sara-cli.git"
   },
   "scripts": {
-    "start": "node bin/index.js"
+    "start": "node bin/index.js",
+    "test": "node test/index.js"
   },
   "keywords": [
     "cli",
