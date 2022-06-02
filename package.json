@@ -33,6 +33,9 @@
   ],
   "author": "Sarath Adhithya",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "arg": "^5.0.1",
     "chalk": "^5.0.1",
