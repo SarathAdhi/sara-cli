@@ -22,6 +22,10 @@ module.exports = {
 `;
 
 export const nextStylesFile = `
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
